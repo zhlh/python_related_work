@@ -1,0 +1,122 @@
+Log4j:[2016-06-15 10:07:35]  INFO DruidDataSource:669 - {dataSource-1} inited
+Log4j:[2016-06-15 10:13:19]  INFO DruidDataSource:1385 - {dataSource-1} closed
+Log4j:[2016-06-15 10:29:43]  INFO DruidDataSource:669 - {dataSource-1} inited
+Log4j:[2016-06-15 10:31:22]  INFO DruidDataSource:1385 - {dataSource-1} closed
+Log4j:[2016-06-15 10:31:26]  INFO DruidDataSource:669 - {dataSource-1} inited
+Log4j:[2016-06-15 10:35:23]  INFO DruidDataSource:1385 - {dataSource-1} closed
+Log4j:[2016-06-15 10:35:30]  INFO DruidDataSource:669 - {dataSource-1} inited
+Log4j:[2016-06-15 10:40:20]  INFO DruidDataSource:1385 - {dataSource-1} closed
+Log4j:[2016-06-15 10:41:10]  INFO DruidDataSource:669 - {dataSource-1} inited
+Log4j:[2016-06-15 10:42:50]  INFO DruidDataSource:669 - {dataSource-1} inited
+Log4j:[2016-06-15 15:39:34]  INFO DruidDataSource:1385 - {dataSource-1} closed
+Log4j:[2016-06-15 15:39:47]  INFO DruidDataSource:669 - {dataSource-1} inited
+Log4j:[2016-06-15 15:40:18]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/css/jquery-ui.css] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:40:18]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-1.7.2.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:40:18]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:40:18]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-slide.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:40:18]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-timepicker-addon.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:40:18]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/css/jquery-ui.css] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:40:18]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-1.7.2.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:40:18]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:40:18]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-slide.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:40:18]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-timepicker-addon.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:40:19]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/css/jquery-ui.css] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:40:19]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-slide.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:40:19]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-1.7.2.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:40:19]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-timepicker-addon.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:40:19]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:40:19]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/css/jquery-ui.css] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:40:19]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:40:19]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-slide.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:40:19]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-timepicker-addon.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:40:22]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/version/lib/timepicker/css/jquery-ui.css] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:40:22]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/version/lib/timepicker/js/jquery-ui.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:40:22]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/version/lib/timepicker/js/jquery-1.7.2.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:40:22]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/version/lib/timepicker/js/jquery-ui-slide.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:40:22]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/version/lib/timepicker/js/jquery-ui-timepicker-addon.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:40:22]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/version/lib/timepicker/css/jquery-ui.css] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:40:22]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/version/lib/timepicker/js/jquery-1.7.2.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:40:22]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/version/lib/timepicker/js/jquery-ui.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:40:22]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/version/lib/timepicker/js/jquery-ui-slide.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:40:22]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/version/lib/timepicker/js/jquery-ui-timepicker-addon.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:43:21]  INFO DruidDataSource:1385 - {dataSource-1} closed
+Log4j:[2016-06-15 15:43:27]  INFO DruidDataSource:669 - {dataSource-1} inited
+Log4j:[2016-06-15 15:43:41]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-1.7.2.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:43:41]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-slide.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:43:41]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:43:41]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/css/jquery-ui.css] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:43:41]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-timepicker-addon.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:43:41]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/css/jquery-ui.css] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:43:41]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-1.7.2.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:43:41]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:43:41]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-slide.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:43:41]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-timepicker-addon.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:43:41]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/css/jquery-ui.css] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:43:41]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:43:41]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-1.7.2.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:43:41]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-timepicker-addon.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:43:41]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-slide.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:43:42]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-1.7.2.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:43:42]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/css/jquery-ui.css] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:43:42]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:43:42]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-slide.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:43:42]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-timepicker-addon.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:44:59]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-1.7.2.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:44:59]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/css/jquery-ui.css] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:44:59]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:44:59]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-slide.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:44:59]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-timepicker-addon.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:45:00]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/css/jquery-ui.css] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:45:00]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-1.7.2.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:45:00]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:45:00]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-slide.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:45:00]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-timepicker-addon.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:45:00]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/css/jquery-ui.css] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:45:00]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-1.7.2.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:45:00]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:45:00]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-slide.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:45:00]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-timepicker-addon.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:45:00]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/css/jquery-ui.css] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:45:00]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-1.7.2.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:45:00]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:45:00]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-slide.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:45:00]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-timepicker-addon.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:45:58]  INFO DruidDataSource:1385 - {dataSource-1} closed
+Log4j:[2016-06-15 15:46:04]  INFO DruidDataSource:669 - {dataSource-1} inited
+Log4j:[2016-06-15 15:46:20]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:46:20]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/css/jquery-ui.css] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:46:20]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-1.7.2.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:46:20]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-timepicker-addon.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:46:20]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-slide.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:46:20]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/css/jquery-ui.css] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:46:20]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-1.7.2.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:46:20]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:46:20]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-slide.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:46:20]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-timepicker-addon.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:46:20]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-1.7.2.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:46:20]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:46:20]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-slide.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:46:20]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/css/jquery-ui.css] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:46:20]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-timepicker-addon.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:46:20]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-1.7.2.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:46:20]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/css/jquery-ui.css] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:46:20]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:46:20]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-slide.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:46:20]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-timepicker-addon.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:47:08]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-1.7.2.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:47:08]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:47:08]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/css/jquery-ui.css] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:47:08]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-slide.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:47:08]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-timepicker-addon.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:47:08]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/css/jquery-ui.css] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:47:08]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-1.7.2.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:47:09]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:47:09]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-slide.min.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:47:09]  WARN PageNotFound:1108 - No mapping found for HTTP request with URI [/axatp-version/lib/timepicker/js/jquery-ui-timepicker-addon.js] in DispatcherServlet with name 'springServlet'
+Log4j:[2016-06-15 15:49:49]  INFO DruidDataSource:1385 - {dataSource-1} closed
+Log4j:[2016-06-15 15:49:55]  INFO DruidDataSource:669 - {dataSource-1} inited
+Log4j:[2016-06-15 15:51:43]  INFO DruidDataSource:1385 - {dataSource-1} closed
+Log4j:[2016-06-15 15:51:49]  INFO DruidDataSource:669 - {dataSource-1} inited
+Log4j:[2016-06-15 16:12:33]  INFO DruidDataSource:1385 - {dataSource-1} closed
+Log4j:[2016-06-15 16:12:39]  INFO DruidDataSource:669 - {dataSource-1} inited
+Log4j:[2016-06-15 17:39:24]  INFO DruidDataSource:1385 - {dataSource-1} closed

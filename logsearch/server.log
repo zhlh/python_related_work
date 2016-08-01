@@ -1,0 +1,32 @@
+2016-07-11 20:09:23,084 INFO  [com.tpaic.tpfa.app.biz.dispatch.impl.ServiceControllerLocalImpl] [ACTION] end service request,requestName:cacheManagerAction
+2016-07-11 20:09:23,085 INFO  [com.tpaic.tpfa.app.biz.dispatch.impl.ServiceControllerLocalImpl] [ACTION] excutive time  cacheManagerAction      1316
+2016-07-11 20:09:25,599 ERROR [11111111111111111]
+2016-07-11 20:09:25,599 ERROR [22222222222222222]
+2016-07-11 20:09:25,599 ERROR [3333333333333333333333333333]
+2016-07-11 20:09:26,599 INFO  [com.tpaic.tpfa.app.biz.dispatch.impl.ServiceControllerLocalImpl] [ACTION] start service request,requestName:cacheManagerAction
+2016-07-11 20:09:26,652 INFO  [com.tpaic.product.cache.TpaicCacheManager] 准备清理缓存 departmentDefineCache, 当前缓存数据量:167条, [10;1H加媚诖1133765字节
+2016-07-11 20:09:27,637 INFO  [com.tpaic.tpfa.app.biz.dispatch.impl.ServiceControllerLocalImpl] [ACTION] end service request,requestName:cacheManagerAction
+2016-07-11 20:09:27,637 INFO  [com.tpaic.tpfa.app.biz.dispatch.impl.ServiceControllerLocalImpl] [ACTION] excutive time  cacheManagerAction      350
+2016-07-11 23:59:36,811 ERROR [com.tpaic.callCenter.biz.bo.ejb.impl.DataEJBInterfaceBO] PolicyPactId=1000109000011179549,policyPactId
+s====,ecInsuredId==10958016060700399425,departmentCode=5580,ContactMode=15555555555
+2016-07-11 23:59:36,812 ERROR [com.tpaic.callCenter.biz.bo.ejb.impl.DataEJBInterfaceBO] com.tpaic.tpfa.app.persistence.dao.DaoExcepti
+on: SqlMapClient operation; SQL [];   
+--- The error occurred in com/tpaic/callCenter/biz/dao/ibatis/common/ejbMap.xml.  
+--- The error occurred while applying a parameter map.  
+--- Check the ejb.insertDeliverAppoint-InlineParameterMap.  
+--- Check the statement (update failed).  
+--- Cause: java.sql.SQLIntegrityConstraintViolationException: ORA-01400: 靠靠 ("CALL_CENTER_OPR"."T_DELIVER_APPOINTMENT".
+"AREA_CODE")
+2016-07-11 23:59:36,811 ERROR [com.tpaic.callCenter.biz.bo.ejb.impl.DataEJBInterfaceBO] PolicyPactId=1000109000011179549,policyPactId
+s====,ecInsuredId==10958016060700399425,departmentCode=5580,ContactMode=15555555555
+2016-07-11 23:59:36,812 ERROR [com.tpaic.callCenter.biz.bo.ejb.impl.DataEJBInterfaceBO] com.tpaic.tpfa.app.persistence.dao.DaoExcepti
+on: SqlMapClient operation; SQL [];   
+--- The error occurred in com/tpaic/callCenter/biz/dao/ibatis/common/ejbMap.xml.  
+--- The error occurred while applying a parameter map.  
+--- Check the ejb.insertDeliverAppoint-InlineParameterMap.  
+--- Check the statement (update failed).  
+--- Cause: java.sql.SQLIntegrityConstraintViolationException: ORA-01400: 无法将 NULL 插入 
+2016-07-11 23:59:37,114 ERROR [com.tpaic.callCenter.biz.dao.impl.DataEJBInterfaceDAO] excutive sql error:ejb.insertDeliverAppoint
+org.springframework.dao.DataIntegrityViolationException: SqlMapClient operation; SQL [];   
+--- The error occurred in com/tpaic/callCenter/biz/dao/ibatis/common/ejbMap.xml.  
+--- The error occurred while applying a parameter map.  
