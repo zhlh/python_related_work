@@ -94,7 +94,8 @@ class AccountMgr:
            for line in f.readlines():
                if is_str_match_pattern(r'^\s*(#|;).*$', line):
                   continue
-               raw_data = re.sub(r'\t+', '\t', line.strip())              
+               raw_data = re.sub(r'\s+', '\t', line.strip())
+               raw_data = re.sub(r'\t+', '\t', raw_data)              
                acct_rec = raw_data.split('\t')
                if len(acct_rec) != 3:
                   logger.warn('Invalid account info data: "{}", missing or more fields, skip.'.format(line.strip()))
