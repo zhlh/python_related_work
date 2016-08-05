@@ -17,6 +17,7 @@ import re
 import json
 import os
 import sys
+import subprocess
 from datetime import datetime, timedelta
 import logging
 
@@ -44,9 +45,10 @@ def do_logger(msg=None, log_fn='/root/shadowsocks/restrict.log'):
 
 class AccountMgr:
 
-    def __init__(self, ss_conf_fn='shadowsocks.json', acct_info_fn='account_info.txt'):
+    def __init__(self, ss_conf_fn='shadowsocks.json', acct_info_fn='account_info.txt', restart_script='restart_server.sh'):
        self.ss_conf_fn = ss_conf_fn
        self.acct_info_fn = acct_info_fn
+       self.restart_script = restart_script
        self.buffer_days = 5
        self.conf_obj = None
        self.ports = None
@@ -62,11 +64,17 @@ class AccountMgr:
           logger.error('SS account information file {} does not exist.'.format(self.acct_info_fn))
           sys.exit(2)
 
+       if not os.path.exists(self.restart_script):
+          logger.error('SS server restart script {} does not exist.'.format(self.restart_script))
+          sys.exit(3)
+       else:
+          self.restart_script = os.path.abspath(self.restart_script)
+
        self._load_ss_conf()
        self._load_acct_info()
        if self.conf_obj is None or self.acct_info is None:
           logger.error('Load data from file failed.')
-          sys.exit(3)
+          sys.exit(4)
        
     
     # load data for conf_obj and ports
@@ -167,21 +175,34 @@ class AccountMgr:
           with open(self.ss_conf_fn, 'w') as f:
              f.write(json.dumps(self.conf_obj,sort_keys=True,indent=4))
           logger.info('Finish restricting expired acct and override SS config file {}.'.format(self.ss_conf_fn))
+          self._restart_ss_service()
        else:
           logger.info('No changes to SS config file {}.'.format(self.ss_conf_fn))
 
+    # Restart SS Service
+    def _restart_ss_service(self):
+        command = [ self.restart_script ]
+        output = subprocess.check_output(command)
+        logger.info('Restart SS service')
+        do_logger(msg='-------Restart SS service start--------')
+        do_logger(msg=output)
+        do_logger(msg='-------Restart SS service end  --------')
+        logger.info('Finish Restarting SS service')
 
     # Control fun
     def process(self):
+       do_logger(msg='Expired Account Check start at {} ...'.format(datetime.now().strftime('%Y-%m-%d %H:%M:%S')))
        self._check_expired_acct()
        self._restrict_expired_accts()
+       do_logger(msg='Expired Account Check end   at {} ...'.format(datetime.now().strftime('%Y-%m-%d %H:%M:%S')))
 
 
 def main():
    ss_conf_fn = '/etc/shadowsocks.json'
    acct_info_fn = '/root/shadowsocks/account_info.txt'
+   restart_script = '/root/python_related_work/ss_service_mgmt_scripts/restart_server.sh'
    
-   am = AccountMgr(ss_conf_fn=ss_conf_fn, acct_info_fn=acct_info_fn)
+   am = AccountMgr(ss_conf_fn=ss_conf_fn, acct_info_fn=acct_info_fn, restart_script=restart_script)
    am.process()
 
 
