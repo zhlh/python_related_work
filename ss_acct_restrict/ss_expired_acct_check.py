@@ -199,7 +199,7 @@ class AccountMgr:
 
 def main():
    ss_conf_fn = '/etc/shadowsocks.json'
-   acct_info_fn = '/root/shadowsocks/account_info.txt'
+   acct_info_fn = '/root/python_related_work/account_info.txt'
    restart_script = '/root/python_related_work/ss_service_mgmt_scripts/restart_server.sh'
    
    am = AccountMgr(ss_conf_fn=ss_conf_fn, acct_info_fn=acct_info_fn, restart_script=restart_script)
