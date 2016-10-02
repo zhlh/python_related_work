@@ -140,14 +140,14 @@ class AccountMgr:
        for port, acct_info in self.acct_info.items():
            is_acct_limit = acct_info.get('is_acct_limit')
            if not is_acct_limit:
-              logger.info('Port {} is unlimited.'.format(port))
+              do_logger(msg='Port {} is unlimited.'.format(port))
               continue
            end_dt = acct_info.get('end_dt')
            
            if now <= end_dt + timedelta(days=self.buffer_days):
-              logger.info('Port {} is in service.'.format(port))
+              do_logger(msg='Port {} is in service.'.format(port))
            else:
-              logger.warn('Port {} is expired and will be restircted'.format(port))
+              do_logger(msg='Port {} is expired and will be restircted'.format(port))
               self.need_restrict_ports.append(port)
 
 
@@ -183,11 +183,11 @@ class AccountMgr:
     def _restart_ss_service(self):
         command = [ self.restart_script ]
         output = subprocess.check_output(command)
-        logger.info('Restart SS service')
+        do_logger(msg='Restart SS service')
         do_logger(msg='-------Restart SS service start--------')
         do_logger(msg=output)
         do_logger(msg='-------Restart SS service end  --------')
-        logger.info('Finish Restarting SS service')
+        do_logger(msg='Finish Restarting SS service')
 
     # Control fun
     def process(self):
